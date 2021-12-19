@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
+body{
+    padding-top: 20px;
+    width: 1400px;
+}
+.menu_1{
+    display: flex;
+    justify-content: space-around;
+}
+.menu_numb{
+    padding-right: 20px;
+    margin-left: -20px;
+    border-right: 1px solid #E2E2E2;
+    align-items: center;
+    display: flex;
+}
+.menu_numb i{
+    margin-top: -20px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.ur{
+    font-family: "Suisse Int'l Trial";
+    font-size: 16px;
+    width: 100px;
+    text-align: center;
+    border-left: 1px solid #E2E2E2;
+    border-right: 1px solid #E2E2E2;
+}
+.ur p:hover{
+    width: 30px;
+    margin-left: 32px;
+    background-color: turquoise;
+    color: white;
+}
+.ue{
+    padding-right: 20px;
+    margin-left: -20px;
+    border-right: 1px solid #E2E2E2;
+}
+.menu_icon{
+    padding-right: 20px;
+    margin-left: -20px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #E2E2E2;
+}
+.menu_icon i{
+    margin-left: 10px;
+    color: #808080;
+}
+.maonline{
+    overflow: hidden;
+    font-size: 20px;
+    font-family: Montserrat;
+    padding-left: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 240px;
+    background: #EFF3F6;
+    align-items: center;
+}
+.online_icon{
+    margin-left: 13px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: tomato;
+}
+.online_icon i{
+    color: white;
+    font-size: 30px;
+}
+.tonline{
+    overflow: hidden;
+    font-size: 20px;
+    font-family: Montserrat;
+    padding-left: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 240px;
+    background: #EFF3F6;
+    align-items: center;
+}
+.tonline_icon{
+    margin-left: 28px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: greenyellow;
+}
+.tonline_icon i{
+    font-size: 25px;
+    color: white;
+}
+.glob_nav_header_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 2px solid #777777;
+}
+.glob_nav_header_1 li:hover{
+    border-bottom: 3px solid red;
+    box-sizing: border-box;
+}
+.glob_nav_header_1 .nav-link{
+    margin-left: 40px;
+}
+.nav-link{
+    color: black;
+}
+.corvatia_content_text{
+    width: 600px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.top h1{
+    margin-left: -250px;
+    font-family: Montserrat;
+    font-size: 24px;
+}
+.top:hover svg{
+    color: crimson;
+}
+.top2 h1{
+    margin-left: -180px;
+    font-family: Montserrat;
+    font-size: 24px;
+}
+.top2 h2{
+    margin-left: -120px;
+    font-family: Montserrat;
+    font-size: 24px;
+}
+.top2:hover svg{
+    color: crimson;
+}
+.top2{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.num{
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(201, 201, 201);
+    border-radius: 3px;
+}
+.num:hover{
+    background-color: crimson;
+    color: white;
+}
+.top p{
+    font-family: Montserrat;
+    font-size: 16px;
+    color: #777777;
+}
+.corvatia_content_text h5{
+    font-family: Montserrat;
+    font-size: 16px;
+}
+.corvatia_content_text ul li{
+    list-style:url(./img/Rectangle\ 317.png);
+}
+.corvatia_content_text p {
+    font-family: Montserrat;
+    font-size: 16px;
+}
+.div_rasp{
+    width: 715px;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #F8F8F8;
+}
+.div_rasp h2{
+    font-family: Montserrat;
+    font-size: 20px;
+}
+.div_vip{
+    padding: 20px;
+    width: 715px;
+    height: 235px;
+    border: 1px solid #777777;
+    font-family: Montserrat;
+}
+.glob_cont{
+    padding: 50px;
+}
+.div_vip h2{
+    font-size: 16px;
+}
+.div_vip p{
+    font-size: 16px;
+    color: #777;
+}
+.div_rasp p{
+    font-family: Montserrat;
+    font-size: 18px;
+    width: 100%;
+    border-bottom: 1px solid #777777;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: #4F4F4F;
+}
+.div_footer{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.button_1{
+    width: 240px;
+    height: 50px;
+    border: 1px solid #777777;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: 16px;
+}
+.button_1:hover{
+    background-color: crimson;
+    color: white;
+}
+.button_2{
+    width: 240px;
+    height: 50px;
+    border: 1px solid #777777;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: 16px;
+}
+.button_2:hover{
+    background-color: crimson;
+    color: white;
+}
+.corvatia_content_foto{
+    width: 300px;
+    position: relative;
+}
+.corvatia_content_foto .img1{
+    position: absolute;
+    top: 180px;
+    left: -80px;
+    z-index: 1;
+}
+.corvatia_content_foto .img2{
+    position: absolute;
+    top: 220px;
+    left: -60px;
+}
+.corvatia_content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_top{
+    padding-bottom: 40px;
+    margin-top: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgba(29, 29, 29, 0.2);;
+    width: 1100px;
+    margin: 40px auto 0 auto;
+}
+.footer_top img{
+    width: 156px;
+    height: 86px;
+}
+.footer_top_munu_1{
+    font-family: "Suisse Int'l Trial";
+    font-size: 15px;
+}
+.footer_top_munu_1 p{
+    margin: 2px;
+}
+.footer_top_munu_2{
+    font-family: "Suisse Int'l Trial";
+    font-size: 15px;
+}
+.footer_top_munu_2 p{
+    margin: 2px;
+}
+.footer_top_p p {
+    font-size: 12px;
+    color: #3E3E3E;
+    opacity: 0.5;
+}
+.footer_top_p h4{
+    font-size: 15px;
+}
+.footer_top_number h4{
+    font-size: 12px;
+    color: #3E3E3E;
+    opacity: 0.5; 
+}
+.footer_top_number{
+    font-size: 15px;
+}
+.footer_bottom{
+    display: flex;
+    padding: 20px 150px 0 150px;
+}
+.footer_bottom_i{
+    width: 100%;
+    text-align: end;
+}
+.footer_bottom_i i {
+    color: #3E3E3E;
+}
+.footer_bottom_p{
+    position: absolute;
+    color: rgba(62, 62, 62, 0.5);
+    font-size: 15px;
+    width: 600px;
+}
+.footer{
+    margin-top: 20px;
+    background-color: #F8F8F8;
+    position: relative;
+    padding: 30px;
+}
